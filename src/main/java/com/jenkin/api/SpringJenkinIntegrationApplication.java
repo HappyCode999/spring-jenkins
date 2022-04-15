@@ -17,11 +17,14 @@ public class SpringJenkinIntegrationApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("App started");
+		logger.info("App started second time");
 	}
 
 	public static void main(String[] args) {
 		logger.info("App executed!");
 		SpringApplication.run(SpringJenkinIntegrationApplication.class, args);
 	}
+	
+	
 
 }
