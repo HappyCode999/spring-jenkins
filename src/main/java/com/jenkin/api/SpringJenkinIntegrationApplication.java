@@ -17,7 +17,7 @@ public class SpringJenkinIntegrationApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("App started");
-		logger.info("App started second time");
+		logger.info("App started thrid time");
 	}
 
 	public static void main(String[] args) {
