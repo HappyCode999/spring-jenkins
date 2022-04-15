@@ -16,7 +16,7 @@ public class SpringJenkinIntegrationApplication {
 	
 	@PostConstruct
 	public void init() {
-		logger.info("App started");
+		logger.info("App started R1");
 	}
 
 	public static void main(String[] args) {
